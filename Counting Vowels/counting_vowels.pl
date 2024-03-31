@@ -12,7 +12,7 @@ sub counting_vowels {
     my $count = ($text =~ tr/aeiouAEIOU//);
     print ("Count of vowels: $count.\n");
 
-    print "Do you want to check other word? [y/n]";
+    print "Do you want to check other text? [y/n]";
     my $new_try = <STDIN>;
     chomp($new_try);
     
