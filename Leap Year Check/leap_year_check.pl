@@ -28,7 +28,7 @@ sub checking {
     if ($new_try eq 'y') {
         checking();
     } elsif($new_try ne 'n') {
-        print "Uncorrect enter. The programm is ending.";
+        print "Uncorrect enter. The programm is ending.\n";
     }
 
 }
